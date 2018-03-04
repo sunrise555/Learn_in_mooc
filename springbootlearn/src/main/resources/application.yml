@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: prod #激活application-dev/prod配置
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/spring_boot_learn
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

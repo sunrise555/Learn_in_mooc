@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+#生产环境
+person:
+  name: product
+  age: 20
